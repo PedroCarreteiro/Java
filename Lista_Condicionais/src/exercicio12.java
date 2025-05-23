@@ -7,6 +7,7 @@ public class exercicio12 {
         System.out.println("Digite seu email: ");
         String email = scanner.nextLine();
 
+        //ter coisa entre @ e . ok
         //ter ponto ok
         //ponto depois do @ ok
         //coisa depois do ponto ok
@@ -21,11 +22,14 @@ public class exercicio12 {
             if(email.indexOf("@") != 0 && email.indexOf("@") == email.lastIndexOf("@")){
                 if(email.contains(".") && email.indexOf(".") != 0){
                     if(email.indexOf("@") < email.lastIndexOf(".")){
-                        if(Character.isLetter(email.charAt(email.length()-1))){
-                            System.out.println("Email válido!");
+                        if((email.indexOf("@") + 1) != (email.indexOf("."))) {
+                            if (Character.isLetter(email.charAt(email.length() - 1))) {
+                                System.out.println("Email válido!");
+                            } else {
+                                System.out.println("Email inválido! (Domínio faltando)!");
+                            }
                         } else {
-                            System.out.println(email.lastIndexOf(".")+" "+ email.length());
-                            System.out.println("Email inválido! (Domínio faltando)!");
+                            System.out.println("Email inválido! (Sem conteúdo entre @ e .)");
                         }
                     } else {
                         System.out.println("Email inválido! (Não tem domínio depois do @)!");
