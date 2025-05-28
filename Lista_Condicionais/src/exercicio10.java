@@ -9,7 +9,7 @@ public class exercicio10 {
 
         double reajuste = 0;
 
-        if (salario <= 3000){
+        if (salario < 3000){
             reajuste = salario * 0.35;
         } else {
             reajuste = salario * 0.15;

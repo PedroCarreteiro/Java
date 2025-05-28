@@ -16,22 +16,18 @@ public class exercicio07 {
 
         if(imc < 18.5){
             classe = "Abaixo do peso";
-            System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
         } else if (imc >= 18.5 && imc < 25){
             classe = "Saudável";
-            System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
         } else if (imc >= 25 && imc < 30){
             classe = "Sobrepeso";
-            System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
         } else if (imc >= 30 && imc < 35) {
             classe = "Obesidade grau I";
-            System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
         } else if (imc >= 35 && imc < 40) {
             classe = "Obesidade grau II";
-            System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
         } else if (imc >= 40){
             classe = "Obesidade grau III";
-            System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
         }
+
+        System.out.printf("O seu IMC é %.2f e sua classe é: %s",imc,classe);
     }
 }

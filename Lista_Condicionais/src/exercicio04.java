@@ -13,19 +13,18 @@ public class exercicio04 {
         System.out.println("Digite o terceiro número: ");
         double n3 = Double.parseDouble(scanner.nextLine());
 
-        if((n1 >= n2 && n1 >= n3) && (n2 >= n3)){
+        if((n1 <= n2 && n1 <= n3) && (n2 <= n3)){
             System.out.printf("Os números em ordem crescente são: %.2f, %.2f, %.2f",n1,n2,n3);
-        } else if((n1 >= n2 && n1 >= n3) && (n3 >= n2)){
+        } else if((n1 <= n2 && n1 <= n3) && (n3 <= n2)){
             System.out.printf("Os números em ordem crescente são: %.2f, %.2f, %.2f",n1,n3,n2);
-        } else if((n2 >= n1 && n2 >= n3) && (n1 >= n3)){
+        } else if((n2 <= n1 && n2 <= n3) && (n1 <= n3)){
             System.out.printf("Os números em ordem crescente são: %.2f, %.2f, %.2f",n2,n1,n3);
-        } else if((n2 >= n1 && n2 >= n3) && (n3 >= n1)){
+        } else if((n2 <= n1 && n2 <= n3) && (n3 <= n1)){
             System.out.printf("Os números em ordem crescente são: %.2f, %.2f, %.2f",n2,n3,n1);
-        } else if((n3 >= n1 && n3 >= n2) && (n1 >= n2)){
+        } else if((n3 <= n1 && n3 <= n2) && (n1 <= n2)){
             System.out.printf("Os números em ordem crescente são: %.2f, %.2f, %.2f",n3,n1,n2);
-        } else if((n3 >= n1 && n3 >= n2) && (n2 >= n1)){
+        } else if((n3 <= n1 && n3 <= n2) && (n2 <= n1)){
             System.out.printf("Os números em ordem crescente são: %.2f, %.2f, %.2f",n3,n2,n1);
         }
     }
-
 }
