@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula2 17-03/Aula2 17-03.iml" filepath="$PROJECT_DIR$/Aula2 17-03/Aula2 17-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula3/Aula3.iml" filepath="$PROJECT_DIR$/Aula3/Aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula4/Aula4.iml" filepath="$PROJECT_DIR$/Aula4/Aula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula5/Aula5.iml" filepath="$PROJECT_DIR$/Aula5/Aula5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula6 - Repeticao/Aula6 - Repeticao.iml" filepath="$PROJECT_DIR$/Aula6 - Repeticao/Aula6 - Repeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConversaoDados/ConversaoDados.iml" filepath="$PROJECT_DIR$/ConversaoDados/ConversaoDados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/Lista2.iml" filepath="$PROJECT_DIR$/Lista2/Lista2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2.2/Lista2.2.iml" filepath="$PROJECT_DIR$/Lista2.2/Lista2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista_Condicionais/Lista_Condicionais.iml" filepath="$PROJECT_DIR$/Lista_Condicionais/Lista_Condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TryCatch/TryCatch.iml" filepath="$PROJECT_DIR$/TryCatch/TryCatch.iml" />
+    </modules>
+  </component>
+</project>
