@@ -6,16 +6,15 @@ public class Ex1 {
         Scanner scanner = new Scanner(System.in);
 
         String[] nomes = new String[3];
-        int[] notas = new int[3];
+        double[] notas = new double[3];
 
         boolean run = true;
 
         for(int i = 0; i < nomes.length; i++){
             System.out.println("Cadastre o " +(i+1)+ "° aluno");
-            String nome = scanner.nextLine();
-            nomes[i] = nome;
+            nomes[i] = scanner.nextLine();
             System.out.println("Cadastre a nota do aluno "+nomes[i]);
-            int nota = Integer.parseInt(scanner.nextLine());
+            double nota = Double.parseDouble(scanner.nextLine());
             notas[i] = nota;
         }
 
@@ -34,7 +33,7 @@ public class Ex1 {
                     int notaFiltro = Integer.parseInt(scanner.nextLine());
                     for (int i = 0; i < nomes.length; i++) {
                         if (notas[i] >= notaFiltro) {
-                            System.out.println("\nNome: " + nomes[i] + "Nota: " + notas[i]);
+                            System.out.println("\nNome: " + nomes[i] + " - Nota: " + notas[i]);
                         }
                     }
                 }
