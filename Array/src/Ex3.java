@@ -9,8 +9,10 @@ public class Ex3 {
         String cpf = "";
 
         boolean rodar = true;
+        boolean rodarInterno = true;
 
         while (rodar){
+            rodarInterno = true;
             System.out.println("\nSelecione uma opção: " +
                     "\n Digite 1 para adicionar CPF" +
                     "\n Digite 2 para remover CPF" +
@@ -20,24 +22,32 @@ public class Ex3 {
 
             switch (selecao){
                 case "1" -> {
-                    System.out.println("\nDigite um CPF para adicionar: ");
-                    cpf = scanner.nextLine();
-                    if(cpfs.contains(cpf)){
-                        System.out.println("CPF já cadastrado!");
-                    } else {
-                        cpfs.add(cpf);
-                        System.out.println("CPF "+cpf+" adicionado!");
+                    while (rodarInterno){
+                        System.out.println("\nDigite um CPF para adicionar: ");
+                        cpf = scanner.nextLine();
+                        if(cpfs.contains(cpf)){
+                            System.out.println("CPF já cadastrado!");
+                        } else if (cpf.length() != 11) {
+                            System.out.println("Número de caracteres inválido!");
+                        } else {
+                            cpfs.add(cpf);
+                            System.out.println("CPF "+cpf+" adicionado!");
+                            rodarInterno = false;
+                        }
                     }
                 }
 
                 case "2" -> {
-                    System.out.println("\nDigite um CPF para remover: ");
-                    cpf = scanner.nextLine();
-                    if(cpfs.contains(cpf)){
-                        cpfs.remove(cpf);
-                        System.out.println("CPF "+cpf+" removido!");
-                    } else {
-                        System.out.println("Não existe o CPF "+cpf+" na lista de CPFs");
+                    while (rodarInterno){
+                        System.out.println("\nDigite um CPF para remover: ");
+                        cpf = scanner.nextLine();
+                        if(cpfs.contains(cpf)){
+                            cpfs.remove(cpf);
+                            System.out.println("CPF "+cpf+" removido!");
+                            rodarInterno = false;
+                        } else {
+                            System.out.println("Não existe o CPF "+cpf+" na lista de CPFs");
+                        }
                     }
                 }
 
