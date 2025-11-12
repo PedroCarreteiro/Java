@@ -27,7 +27,7 @@ public class Ex3 {
                         cpf = scanner.nextLine();
                         if(cpfs.contains(cpf)){
                             System.out.println("CPF já cadastrado!");
-                        } else if (cpf.length() < 11) {
+                        } else if (cpf.length() != 11) {
                             System.out.println("Número de caracteres inválido!");
                         } else {
                             cpfs.add(cpf);
