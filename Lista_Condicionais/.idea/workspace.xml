@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="152d9d2f-9eeb-4c65-976d-6c371187897b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Array/src/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array/src/Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array/src/Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array/src/Ex6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExer/src/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista_Condicionais.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="366kw5qeINsOQI2msJZAi3HKyTP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/cpe2ca/Documents/Java/Lista_Condicionais"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="152d9d2f-9eeb-4c65-976d-6c371187897b" name="Changes" comment="" />
+      <created>1764334643735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764334643735</updated>
+    </task>
+    <servers />
+  </component>
+</project>
